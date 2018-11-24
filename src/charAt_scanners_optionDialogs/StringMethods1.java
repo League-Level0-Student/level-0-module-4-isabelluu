@@ -11,17 +11,17 @@ public class StringMethods1 {
 		String ocean = "wave";
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
-		//System.out.println(ocean.charAt(2));
+		System.out.println(ocean.charAt(2));
 		// 3. Print the length of your String to the console.
 		//    HINT: .length()
-		//System.out.println(ocean.length());
+		System.out.println(ocean.length());
 		// 4. Using a for loop, print one char at time to the console.
 		//    HINT: use .length() to determine how many loops
 
-		/*for (int i=0; i<ocean.length();i++)
+		for (int i=0; i<ocean.length();i++)
 		{System.out.println(ocean.charAt(i));
 		System.out.println(ocean.length());
-		}*/
+		}
 		// 5. Pick a char inside your String, and use a loop to determine
 		//    what position/index in the String the char is located.
 		//    Print the char's position to the console.
